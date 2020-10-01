@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href = "style.css" type ="text/css" rel ="stylesheet">
+	<title>Modelo de caja</title>
+</head>
+<body>
+<div id="Definicion">
+	<h2><a href="https://programacion1class.wordpress.com/3-5-modelo-de-caja/" target="_blank">Modelo de caja </a></h2>
+	<p>es seguramente la característica más importante del lenguaje de hojas de estilos CSS, ya que condiciona el diseño de todas las páginas web. <em>El modelo de cajas es el comportamiento de CSS que hace que todos los elementos de las páginas se representen mediante cajas rectangulares.</em></p>
+	<p>Las cajas de una página se crean automáticamente. Cada vez que se inserta una etiqueta HTML, se crea una nueva caja rectangular que encierra los contenidos de ese elemento.</p>
+    <h3>Modelo Estandar</h3>
+	<p>En el modelo de cajas estándar, cuando estableces los atributos width y height para una caja, defines el ancho y el alto del contenido de la caja. Cualquier área de relleno y borde se añade a ese ancho y alto para obtener el tamaño total que ocupa la caja.</p>
+	<h3>Modelo Alternativo</h3>
+	<p>Con este modelo, cualquier ancho es el ancho de la caja visible en la página, por lo tanto, el ancho del área de contenido es ese ancho menos el ancho para el relleno y el borde</p>
+</div>
+<figure id="imagen"><img src="https://www.kasandbox.org/programming-images/misc/boxmodel.png" alt="Capas de un modelo de caja"><aside>(margen, borde, relleno y contenido) </aside>
+</figure>
+<div class="segunda">
+	<p>
+		<a href="#partes">Las partes que componen cada caja </a>y su orden de visualización desde el punto de vista del usuario son las siguientes:</p>
+		<ul id="lista">
+			<li>Contenido (<em>content</em>)</li>
+			<li>Relleno (<em>padding</em>)</li>
+			<li>Borde (<em>border</em>)</li>
+			<li>Margen (<em>margin</em>)</li>
+		</ul> 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQIgBjodSbAAMUclsJDR6QyqjfE_1lsJLz5yg&usqp=CAU" alt="Estructura CSS">
+</div>
+
+<div id="tercera">
+	<a name="partes" id="partes"></a>
+	<h2>Partes: Márgenes, relleno y bordes</h2>
+	<p>Estas propiedades abreviadas también tienen propiedades sin abreviar equivalentes, que permiten tener control sobre los diferentes lados de la caja de forma individual.</p>
+
+	<h3>Margen</h3>
+	<p>El margen es un espacio invisible que hay alrededor de la caja. Aleja el resto de elementos de la caja. Los márgenes pueden tener valores positivos o negativos. Establecer un margen negativo para un lado de tu caja puede hacer que se superponga con otros elementos de la página. Tanto si utilizas el modelo de cajas estándar como el alternativo, el margen siempre se añade después de haber calculado el tamaño de la caja que se ve.</p>
+	<h3>Relleno</h3>
+	<p>El relleno se encuentra entre el borde y el área de contenido. A diferencia de los márgenes, el relleno no puede tomar valores negativos, por lo que el valor debe ser 0 o positivo. Cualquier fondo aplicado a tu elemento se mostrará detrás del área de relleno y, generalmente, se usa para mantener el contenido alejado del borde.</p>
+	<h3>Bordes</h3>
+	<p>El borde se dibuja entre el margen y el área de relleno de una caja. Si utilizas el modelo de cajas estándar, el tamaño del borde se añade a los elementos width y height que establecen el alto y el ancho de la caja. Si utilizas el modelo de cajas alternativo, el tamaño del borde reduce el tamaño de la caja de contenido, porque ocupa una parte del alto y el ancho disponibles.</p>
+</div>
+
+</body>
+</html>

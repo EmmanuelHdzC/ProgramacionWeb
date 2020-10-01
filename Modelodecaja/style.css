@@ -1,0 +1,19 @@
+body{background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/fondo.png);
+ background-size: 100%100%;}
+
+*{font-family: arial; color: #FFFFFF}
+
+#Definicion{text-align: center;}
+#Definicion em{background: #8AAFFF;}
+#Definicion h3{color: #FF1313}
+#imagen{text-align: center;}
+.segunda {width: 750px; height: 400px; 
+	margin: 60px; padding: 25px; border: white 8px solid ;}
+
+
+#lista em{background: #8AAFFF;}
+#tercera{margin: 50px; padding: 30px; border: gray 8px solid;}
+#tercera h3{color: #FF1313}
+
+
+
