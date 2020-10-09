@@ -1,0 +1,16 @@
+body{background-color: #186B60}
+header{background-color: #FFAA00;height: 80px}
+#encabezado {display: inline}
+h2{float: right;}
+h1{float: left;}
+
+ul{background-color: #FF8700;display: inline-block;margin-bottom: 0px}
+li{display: inline-block;padding: 10px}
+li:hover{background-color: #00CFC9}
+#lista {text-align: center}
+
+
+#parrafos {background: #7FFAEA; width: 600px;margin-right: auto; margin-left: auto;margin-top: 0px}
+div{background-color: #FFA600; width: 250px; height:150px; margin-bottom: 50px; overflow: hidden;margin-left: 15px; margin-right: 15px}
+#Arderecha {float: right;}
+#Abderecha {float: right;}
