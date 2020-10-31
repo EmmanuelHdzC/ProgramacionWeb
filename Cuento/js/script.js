@@ -10,9 +10,15 @@ btnBack.style.display = 'none';
 let i=null;
 let pagina = null;
 var lectura = document.getElementById(lecturas[0]);
-lectura.play();
 
 
+function reproducir(){
+ 	lectura.play();
+ 	btnPause.innerHTML = 'Pause';
+
+}
+
+img.addEventListener('mouseup',reproducir);
 
 function siguiente(){
 	if(i==null){
