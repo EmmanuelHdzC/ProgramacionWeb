@@ -12,13 +12,13 @@ let pagina = null;
 var lectura = document.getElementById(lecturas[0]);
 
 
-function reproducir(){
+function repro(){
  	lectura.play();
  	btnPause.innerHTML = 'Pause';
 
 }
 
-img.addEventListener('mouseup',reproducir);
+img.addEventListener('mouseup',repro);
 
 function siguiente(){
 	if(i==null){
