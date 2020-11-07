@@ -1,0 +1,7 @@
+body{background-color: black}
+header{background-image: url(portada.jpeg);}
+img{width:  100%}
+h1,p,h2,li{color: white;}
+
+#historia,#reglas{display: none;}
+
