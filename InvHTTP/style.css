@@ -1,0 +1,6 @@
+body{background-color: blue/*#89A2EA*/}
+img{width: 100%}
+h4{background: black; color: white}
+p,h5,li{color: white}
+
+#Arquitectura,#Caracteristicas,#sePuede{display: none;}

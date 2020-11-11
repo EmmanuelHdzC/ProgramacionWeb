@@ -6,6 +6,7 @@ let segunda = document.getElementById('historia');
 let tercera = document.getElementById('reglas');
 
 function primero(){
+	console.log('mfnsbdfsd')
 	primera.style.display = 'block';
 	segunda.style.display = 'none';
 	tercera.style.display = 'none';
