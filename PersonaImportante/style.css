@@ -1,10 +1,10 @@
 #principal{background-image: url(https://www.xtrafondos.com/wallpapers/balon-de-futbol-en-fuego-4091.jpg);
  font-family: arial;color: #FFFFFF}
-#formulario{background-image: url(https://www.enriquedans.com/wp-content/uploads/2015/11/Notifications.jpg);
- text-align: center; font-family: arial}
+#formulario{font-family: arial}
 #titulo h1{text-align: center; background: #1395A4 }
 .parrafo1{}
 #imagenes{overflow-x: scroll; white-space: nowrap}
 #imagenes img{height: 250px; width: 300px}
 #ul em{color: #1395A4;}
 #video {text-align: center; margin: 50px}
+#primera{background-color: blue;}

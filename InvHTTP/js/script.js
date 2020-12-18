@@ -7,6 +7,20 @@ let arquitectura = document.getElementById('Arquitectura');
 let caracteristicas = document.getElementById('Caracteristicas');
 let sepuede = document.getElementById('sePuede');
 
+let im1 = document.getElementById('primera');
+
+function imagenesG(){
+	im1.style.width = '600px';
+}
+
+im1.addEventListener('mouseover',imagenesG);
+
+function imagenesC(){
+	im1.style.width = '';
+}
+
+im1.addEventListener('mouseout',imagenesC);
+
 function primero(){
 	http.style.display = 'block';
 	arquitectura.style.display = 'none';

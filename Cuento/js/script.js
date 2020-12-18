@@ -18,6 +18,8 @@ function repro(){
 
 }
 
+
+
 img.addEventListener('mouseup',repro);
 
 function siguiente(){

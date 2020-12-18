@@ -1,0 +1,40 @@
+*{
+  font-family: verdana;
+  color: red;
+}
+body{
+  background-color: black;
+}
+h1{
+  color: #7B869B;
+  font-weight: normal;
+  font-size: 60px;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+#dos{
+  text-align: center;
+}
+.puno{
+  font-size: 45px;
+
+} 
+p.pdos:first-letter{
+   float:left;
+   font-size: 4.25em;
+   font-style:italic;
+   line-height:0.30em; 
+   padding:0.1em 0.01em 0 0; 
+}
+
+img{
+  width: 100%;
+}
+#t1,#t2,#t3,#t4,#t5,#t6,#t7,#preguntas,#somos,#e1,#e2,#e3,#e4,#e5,#dch1,#dch2,#dch3,#dch4,#dch5,#dch6,#dch7,#dj,
+#dcd1,#dcd2,#dcd3,#dcd4,#dcd5,#dcd6,#dqr1,#dqr2,#dqr3,#dqr4,#dqr5,#dqt1,#dqt2,#dqt3,#dqt4,#dqt5{
+  display: none;
+}
+hr{
+  color: white;
+}
+
